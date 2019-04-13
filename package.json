@@ -4,6 +4,7 @@
   "description": "Web services using restify framework.",
   "main": "app.js",
   "scripts": {
+    "start": "babel-node --presets es2015 app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/codesinghanoop/restifyProject#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.1",
