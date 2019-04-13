@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add bcrypt --save
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/anoopsingh/.npm/bin:/Users/anoopsingh/.npm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "restifyproject",
+    "version": "1.0.0",
+    "description": "Web services using restify framework.",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/codesinghanoop/restifyProject.git"
+    },
+    "keywords": [
+      "restify",
+      "services",
+      "framework",
+      "betterPerformance"
+    ],
+    "author": "Anoop Singh",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/codesinghanoop/restifyProject/issues"
+    },
+    "homepage": "https://github.com/codesinghanoop/restifyProject#readme",
+    "dependencies": {
+      "restify": "^8.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/anoopsingh/Documents/workspace/restifyProject/node_modules/abbrev'

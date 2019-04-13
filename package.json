@@ -1,0 +1,34 @@
+{
+  "name": "restifyproject",
+  "version": "1.0.0",
+  "description": "Web services using restify framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesinghanoop/restifyProject.git"
+  },
+  "keywords": [
+    "restify",
+    "services",
+    "framework",
+    "betterPerformance"
+  ],
+  "author": "Anoop Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesinghanoop/restifyProject/issues"
+  },
+  "homepage": "https://github.com/codesinghanoop/restifyProject#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.1",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.3.0",
+    "restify-errors": "^7.0.0",
+    "restify-jwt-community": "^1.0.11"
+  }
+}
